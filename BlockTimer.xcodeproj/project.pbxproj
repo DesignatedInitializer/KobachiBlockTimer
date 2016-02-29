@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA319B991C842E0A0038537F /* BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA319B981C842E070038537F /* BlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA75402B1C84074900B6DD8C /* BlockTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7540201C84074900B6DD8C /* BlockTimer.framework */; };
 		FA7540301C84074900B6DD8C /* BlockTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75402F1C84074900B6DD8C /* BlockTimerTests.m */; };
 		FA7540481C84192600B6DD8C /* KBCBlockTimerFireAction__.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7540461C84192600B6DD8C /* KBCBlockTimerFireAction__.h */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA319B981C842E070038537F /* BlockTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTimer.h; sourceTree = "<group>"; };
 		FA7540201C84074900B6DD8C /* BlockTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7540251C84074900B6DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/BlockTimer/Info.plist"; sourceTree = "<group>"; };
 		FA75402A1C84074900B6DD8C /* BlockTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 		FA7540221C84074900B6DD8C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA319B981C842E070038537F /* BlockTimer.h */,
 				FA7540461C84192600B6DD8C /* KBCBlockTimerFireAction__.h */,
 				FA7540471C84192600B6DD8C /* KBCBlockTimerFireAction__.m */,
 				FA75404A1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h */,
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA75404C1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h in Headers */,
+				FA319B991C842E0A0038537F /* BlockTimer.h in Headers */,
 				FA7540481C84192600B6DD8C /* KBCBlockTimerFireAction__.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
