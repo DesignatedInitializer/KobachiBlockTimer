@@ -16,27 +16,23 @@ typedef void(^KBCBlockTimerFireAction)(NSTimer *timer);
 
 /**
  *
- * Creates and returns a new NSTimer object object initialized with the specified block, and schedules it on the current 
- * run loop in the default mode. Instead of passing target and selector, this timer will execute the specified block when 
- * it fires.
- *
- * @see NSTimer
+ * Creates and returns a new NSTimer object initialized with the specified block, and schedules it on the current
+ * run loop in the default mode. The timer will run the specified block when it fires.
  */
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)interval userInfo:(nullable id)userInfo repeats:(BOOL)repeats action:(KBCBlockTimerFireAction)action;
++ (NSTimer *)kbc_scheduledTimerWithTimeInterval:(NSTimeInterval)interval userInfo:(nullable id)userInfo repeats:(BOOL)repeats action:(KBCBlockTimerFireAction)action;
 
 /**
  * Creates and returns a new NSTimer object initialized with the specified block. The timer must be scheduled on a
- * run loop to fire. The convenience method +[KBCBlockTimer scheduledTimerWithTimeInterval:userInfo:repeats:action:] uses
+ * run loop to fire. The convenience method +kbc_scheduledTimerWithTimeInterval:userInfo:repeats:action: uses
  *
  * [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSDefaultRunLoopMode];
  *
- * to schedule the timer on the current run loop in the default mode. Note that this won't work on background threads that have no run loop set up. In order to schedule the timer from a background thread like this use
+ * to schedule the timer on the current run loop in the default mode. Note that this won't work on background threads 
+ * that don't spin their run loop. In order to schedule the timer from a background thread use
  *
  * [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
- *
- * @see NSTimer
  */
-+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)interval userInfo:(nullable id)userInfo repeats:(BOOL)repeats action:(KBCBlockTimerFireAction)action;
++ (NSTimer *)kbc_timerWithTimeInterval:(NSTimeInterval)interval userInfo:(nullable id)userInfo repeats:(BOOL)repeats action:(KBCBlockTimerFireAction)action;
 
 /**
  * Convenience method for non-repeating timers where it's easier to just capture state inside the specified action block
@@ -45,7 +41,7 @@ typedef void(^KBCBlockTimerFireAction)(NSTimer *timer);
  * @see +scheduledTimerWithTimeInterval:userInfo:repeats:action:
  *
  */
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)interval action:(KBCBlockTimerFireAction)action;
++ (NSTimer *)kbc_scheduledTimerWithTimeInterval:(NSTimeInterval)interval action:(KBCBlockTimerFireAction)action;
 
 /**
  * Convenience method for non-repeating timers where it's easier to just capture state inside the specified action block
@@ -53,7 +49,7 @@ typedef void(^KBCBlockTimerFireAction)(NSTimer *timer);
  *
  * @see +timerWithTimeInterval:userInfo:repeats:action:
  */
-+ (NSTimer *)timerWithTimeInterval:(NSTimeInterval)interval action:(KBCBlockTimerFireAction)action;
++ (NSTimer *)kbc_timerWithTimeInterval:(NSTimeInterval)interval action:(KBCBlockTimerFireAction)action;
 
 @end
 

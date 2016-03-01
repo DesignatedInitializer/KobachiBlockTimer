@@ -17,15 +17,18 @@
 - (id)initWithFireAction:(KBCBlockTimerFireAction)action
 {
     self = [super init];
-    if (self) {
-        _action = [action copy];
+    if (self == nil) {
+        return nil;
     }
+    
+    _action = [action copy];
+    
     return self;
 }
 
 - (void)fire:(NSTimer *)timer
 {
-    if (timer.isValid && self.action) {
+    if (timer.isValid && self.action != nil) {
         self.action(timer);
     }
 }
