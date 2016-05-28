@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA319B991C842E0A0038537F /* BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA319B981C842E070038537F /* BlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA75402B1C84074900B6DD8C /* BlockTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7540201C84074900B6DD8C /* BlockTimer.framework */; };
-		FA7540301C84074900B6DD8C /* BlockTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75402F1C84074900B6DD8C /* BlockTimerTests.m */; };
+		FA319B991C842E0A0038537F /* KobachiBlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA319B981C842E070038537F /* KobachiBlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA75402B1C84074900B6DD8C /* KobachiBlockTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7540201C84074900B6DD8C /* KobachiBlockTimer.framework */; };
+		FA7540301C84074900B6DD8C /* KBCBlockTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75402F1C84074900B6DD8C /* KBCBlockTimerTests.m */; };
 		FA7540481C84192600B6DD8C /* KBCBlockTimerFireAction__.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7540461C84192600B6DD8C /* KBCBlockTimerFireAction__.h */; };
 		FA7540491C84192600B6DD8C /* KBCBlockTimerFireAction__.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7540471C84192600B6DD8C /* KBCBlockTimerFireAction__.m */; };
-		FA75404C1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA75404A1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA75404D1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75404B1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.m */; };
+		FA75404C1C841AD200B6DD8C /* NSTimer+BlockTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA75404A1C841AD200B6DD8C /* NSTimer+BlockTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA75404D1C841AD200B6DD8C /* NSTimer+BlockTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75404B1C841AD200B6DD8C /* NSTimer+BlockTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +27,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA319B981C842E070038537F /* BlockTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTimer.h; sourceTree = "<group>"; };
-		FA7540201C84074900B6DD8C /* BlockTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BlockTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA319B981C842E070038537F /* KobachiBlockTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KobachiBlockTimer.h; sourceTree = "<group>"; };
+		FA7540201C84074900B6DD8C /* KobachiBlockTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KobachiBlockTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7540251C84074900B6DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/BlockTimer/Info.plist"; sourceTree = "<group>"; };
-		FA75402A1C84074900B6DD8C /* BlockTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA75402F1C84074900B6DD8C /* BlockTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTimerTests.m; sourceTree = "<group>"; };
+		FA75402A1C84074900B6DD8C /* KobachiBlockTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KobachiBlockTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA75402F1C84074900B6DD8C /* KBCBlockTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBCBlockTimerTests.m; sourceTree = "<group>"; };
 		FA7540311C84074900B6DD8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA7540461C84192600B6DD8C /* KBCBlockTimerFireAction__.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCBlockTimerFireAction__.h; sourceTree = "<group>"; };
 		FA7540471C84192600B6DD8C /* KBCBlockTimerFireAction__.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCBlockTimerFireAction__.m; sourceTree = "<group>"; };
-		FA75404A1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+KobachiBlockTimer.h"; sourceTree = "<group>"; };
-		FA75404B1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+KobachiBlockTimer.m"; sourceTree = "<group>"; };
+		FA75404A1C841AD200B6DD8C /* NSTimer+BlockTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlockTimer.h"; sourceTree = "<group>"; };
+		FA75404B1C841AD200B6DD8C /* NSTimer+BlockTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlockTimer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA75402B1C84074900B6DD8C /* BlockTimer.framework in Frameworks */,
+				FA75402B1C84074900B6DD8C /* KobachiBlockTimer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,8 +71,8 @@
 		FA7540211C84074900B6DD8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA7540201C84074900B6DD8C /* BlockTimer.framework */,
-				FA75402A1C84074900B6DD8C /* BlockTimerTests.xctest */,
+				FA7540201C84074900B6DD8C /* KobachiBlockTimer.framework */,
+				FA75402A1C84074900B6DD8C /* KobachiBlockTimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -80,11 +80,11 @@
 		FA7540221C84074900B6DD8C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FA319B981C842E070038537F /* BlockTimer.h */,
+				FA319B981C842E070038537F /* KobachiBlockTimer.h */,
 				FA7540461C84192600B6DD8C /* KBCBlockTimerFireAction__.h */,
 				FA7540471C84192600B6DD8C /* KBCBlockTimerFireAction__.m */,
-				FA75404A1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h */,
-				FA75404B1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.m */,
+				FA75404A1C841AD200B6DD8C /* NSTimer+BlockTimer.h */,
+				FA75404B1C841AD200B6DD8C /* NSTimer+BlockTimer.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 		FA75402E1C84074900B6DD8C /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				FA75402F1C84074900B6DD8C /* BlockTimerTests.m */,
+				FA75402F1C84074900B6DD8C /* KBCBlockTimerTests.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -130,8 +130,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA75404C1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.h in Headers */,
-				FA319B991C842E0A0038537F /* BlockTimer.h in Headers */,
+				FA75404C1C841AD200B6DD8C /* NSTimer+BlockTimer.h in Headers */,
+				FA319B991C842E0A0038537F /* KobachiBlockTimer.h in Headers */,
 				FA7540481C84192600B6DD8C /* KBCBlockTimerFireAction__.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,9 +139,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		FA75401F1C84074900B6DD8C /* BlockTimer */ = {
+		FA75401F1C84074900B6DD8C /* KobachiBlockTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7540341C84074900B6DD8C /* Build configuration list for PBXNativeTarget "BlockTimer" */;
+			buildConfigurationList = FA7540341C84074900B6DD8C /* Build configuration list for PBXNativeTarget "KobachiBlockTimer" */;
 			buildPhases = (
 				FA75401B1C84074900B6DD8C /* Sources */,
 				FA75401C1C84074900B6DD8C /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = BlockTimer;
+			name = KobachiBlockTimer;
 			productName = BlockTimer;
-			productReference = FA7540201C84074900B6DD8C /* BlockTimer.framework */;
+			productReference = FA7540201C84074900B6DD8C /* KobachiBlockTimer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FA7540291C84074900B6DD8C /* BlockTimerTests */ = {
+		FA7540291C84074900B6DD8C /* KobachiBlockTimerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA7540371C84074900B6DD8C /* Build configuration list for PBXNativeTarget "BlockTimerTests" */;
+			buildConfigurationList = FA7540371C84074900B6DD8C /* Build configuration list for PBXNativeTarget "KobachiBlockTimerTests" */;
 			buildPhases = (
 				FA7540261C84074900B6DD8C /* Sources */,
 				FA7540271C84074900B6DD8C /* Frameworks */,
@@ -170,9 +170,9 @@
 			dependencies = (
 				FA75402D1C84074900B6DD8C /* PBXTargetDependency */,
 			);
-			name = BlockTimerTests;
+			name = KobachiBlockTimerTests;
 			productName = BlockTimerTests;
-			productReference = FA75402A1C84074900B6DD8C /* BlockTimerTests.xctest */;
+			productReference = FA75402A1C84074900B6DD8C /* KobachiBlockTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -192,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA75401A1C84074900B6DD8C /* Build configuration list for PBXProject "BlockTimer" */;
+			buildConfigurationList = FA75401A1C84074900B6DD8C /* Build configuration list for PBXProject "KobachiBlockTimer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -204,8 +204,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA75401F1C84074900B6DD8C /* BlockTimer */,
-				FA7540291C84074900B6DD8C /* BlockTimerTests */,
+				FA75401F1C84074900B6DD8C /* KobachiBlockTimer */,
+				FA7540291C84074900B6DD8C /* KobachiBlockTimerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA75404D1C841AD200B6DD8C /* NSTimer+KobachiBlockTimer.m in Sources */,
+				FA75404D1C841AD200B6DD8C /* NSTimer+BlockTimer.m in Sources */,
 				FA7540491C84192600B6DD8C /* KBCBlockTimerFireAction__.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7540301C84074900B6DD8C /* BlockTimerTests.m in Sources */,
+				FA7540301C84074900B6DD8C /* KBCBlockTimerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		FA75402D1C84074900B6DD8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA75401F1C84074900B6DD8C /* BlockTimer */;
+			target = FA75401F1C84074900B6DD8C /* KobachiBlockTimer */;
 			targetProxy = FA75402C1C84074900B6DD8C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA75401A1C84074900B6DD8C /* Build configuration list for PBXProject "BlockTimer" */ = {
+		FA75401A1C84074900B6DD8C /* Build configuration list for PBXProject "KobachiBlockTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7540321C84074900B6DD8C /* Debug */,
@@ -412,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7540341C84074900B6DD8C /* Build configuration list for PBXNativeTarget "BlockTimer" */ = {
+		FA7540341C84074900B6DD8C /* Build configuration list for PBXNativeTarget "KobachiBlockTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7540351C84074900B6DD8C /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA7540371C84074900B6DD8C /* Build configuration list for PBXNativeTarget "BlockTimerTests" */ = {
+		FA7540371C84074900B6DD8C /* Build configuration list for PBXNativeTarget "KobachiBlockTimerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA7540381C84074900B6DD8C /* Debug */,

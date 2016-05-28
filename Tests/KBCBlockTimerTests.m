@@ -1,6 +1,6 @@
 //
-//  BlockTimerTests.m
-//  BlockTimerTests
+//  KBCBlockTimerTests.m
+//  KobachiBlockTimerTests
 //
 //  Created by Alexander I. Kovács on 2/29/16.
 //  Copyright © 2016 Alexander I. Kovács. All rights reserved.
@@ -8,7 +8,7 @@
 
 @import XCTest;
 
-#import "NSTimer+KobachiBlockTimer.h"
+#import "NSTimer+BlockTimer.h"
 
 @interface BlockTimerTests : XCTestCase
 @property (nonatomic) NSTimer *timer;

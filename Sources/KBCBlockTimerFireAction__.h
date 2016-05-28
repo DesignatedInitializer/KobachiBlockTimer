@@ -1,12 +1,12 @@
 //
 //  KBCBlockTimerFireAction__.h
-//  BlockTimer
+//  KobachiBlockTimer
 //
 //  Created by Alexander I. Kovács on 2/29/16.
 //  Copyright © 2016 Alexander I. Kovács. All rights reserved.
 //
 
-#import "NSTimer+KobachiBlockTimer.h"
+#import "NSTimer+BlockTimer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

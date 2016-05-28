@@ -1,6 +1,6 @@
 //
 //  KBCBlockTimerFireAction__.m
-//  BlockTimer
+//  KobachiBlockTimer
 //
 //  Created by Alexander I. Kovács on 2/29/16.
 //  Copyright © 2016 Alexander I. Kovács. All rights reserved.
